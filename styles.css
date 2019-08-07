@@ -1,0 +1,42 @@
+body{
+  background-image: url("back.jpeg");
+}
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+h1.name{
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width:300%;
+  }
+  75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+  to {
+    margin-left: 0%;
+    width:100%;
+  }
+}
+h2.edu{
+  font-style: bold;
+}
+.me{
+  font-family: monospace;
+  font-size: 40px;
+}
+.education{
+  font-size: 40px;
+  font-family: monospace;
+}
+.experience{
+  font-style: italic;
+  font-size: 40px;
+}
